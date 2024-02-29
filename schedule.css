@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+button{
+    margin-left: 0%;
+    background-color: rgb(96, 93, 93);
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+}
+
+.cta{
+    padding-right: 10px;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+li,a{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+   
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.match {
+    border: 2px solid white;
+    display: flex;
+    margin-top: 3%;
+}
+
+.c{
+    align-items: flex-end;
+    margin-left: 50%;
+    margin-right: 10%;
+    padding-top: 10px;
+}
+
+.team {
+    font-weight: bold;
+    color: white;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.date {
+    color: #555;
+}
+
+.venue {
+    color: #777;
+}
+
+.schedule{
+    background-image: conic-gradient(
+        from var(--border-angle),
+        #213,
+        #112 50%,
+        #213
+      ),
+      conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-size: calc(100% - (var(--border-size) * 2))
+        calc(100% - (var(--border-size) * 2)),
+      cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    animation: bg-spin 3s linear infinite;
+    @keyframes bg-spin {
+      to {
+        --border-angle: 1turn;
+      }
+    }
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+  .schedule{
+    margin-bottom: 150px;
+  }
+
+  h1{
+     font-size: 40px;
+     color: white;
+  }
+
+  a p{
+    font-size: 15px;
+  }
+
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #2a9dc6 0%,
+    #1feb10 29%,
+    #da1e1e 67%,
+    #f4ef61 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear 1;
+  
+      font-size: 100px;
+      text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+  

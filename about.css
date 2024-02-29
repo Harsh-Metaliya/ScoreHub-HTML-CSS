@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+/* navbar*/
+button{
+    margin-left: 0%;
+    background-color: rgb(96, 93, 93);
+    color: white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+}
+
+.cta{
+    padding-right: 10px;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+li,a{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+   
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+
+}
+
+.name{
+    text-align: left;
+    font-size: 50px;
+    margin-top: 10%;
+    color: white;
+    margin-left: 5%;
+    
+}
+h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+}
+.container{
+    width: 75%;
+    margin-left: 10%;
+    text-align: center;
+}
